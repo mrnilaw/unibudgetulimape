@@ -3,7 +3,7 @@
 const STORAGE_KEY = "unibudget_ulima_pro_v1";
 const BUDGET_KEY = "unibudget_ulima_budget_v1";
 const NAME_KEY = "unibudget_ulima_name_v1";
-const DEFAULT_RATE = 0.27;
+const DEFAULT_RATE = 0.2949;
 
 /* Estado */
 let txs = [];
@@ -239,3 +239,4 @@ function toggleTheme() {
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark-mode");
 }
+
